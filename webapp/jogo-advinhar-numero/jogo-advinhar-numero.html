@@ -1,0 +1,36 @@
+<!--
+    Código obtido de MDN - só copiei para ver o funcionamento
+    Utilizar esse programa para praticar teste de componente
+-->
+
+<!DOCTYPE html>
+<html lang="PT-br">
+
+<head>
+    <meta charset="utf-8">
+
+    <title>Jogo adivinhe o número</title>
+    <link rel="stylesheet" href="jogo-advinhar-numero.css">
+</head>
+
+<body>
+    <h1>Jogo adivinhe o número</h1>
+
+    <p>Nós selecionamos um número aleatório entre 1 e 100. Veja se consegue adivinhar em 10 chances ou menos. Nós lhe
+        diremos se seu palpite foi muito alto ou muito baixo.</p>
+
+    <form class="form">
+        <label for="idCampoPalpite">Digite seu palpite: </label><input type="text" id="idCampoPalpite" class="campoPalpite">
+        <input type="submit" value="Enviar palpite" class="envioPalpite">
+    </form>
+
+    <div class="resultadoParas">
+        <p class="palpites"></p>
+        <p class="ultimoResultado"></p>
+        <p class="baixoOuAlto"></p>
+    </div>
+
+    <script src="jogo-advinhar-numero.js" defer></script>
+</body>
+
+</html>
